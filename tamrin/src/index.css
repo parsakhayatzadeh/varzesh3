@@ -1,0 +1,112 @@
+@font-face {
+  font-family: faraz;
+  src: url(../public/384.Font.Farsi/Faraz_MRT.TTF);
+
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.allPadding {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.section-1 {
+  background-color: #00838f;
+  width: 100%;
+  height: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+
+}
+
+.justify-beetween {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+
+
+}
+
+.menu1-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.menu1-nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: faraz;
+  font-size: 18px;
+
+}
+
+.calender {
+  min-width: 150px;
+  font-family: faraz;
+
+}
+
+.font-faraz {
+  font-family: faraz;
+}
+
+.menu2-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 2px;
+}
+
+.line {
+  border: 1px solid white;
+  width: 0.5px;
+  height: 23px;
+}
+
+.icons {
+  margin-top: 5px;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  direction: rtl;
+  box-shadow: 0 2px 18px 0 rgb(0 0 0 / 13%);
+
+}
+
+.logo {
+  width: 110px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  
+}
+.navbar a{ 
+  color: #212121;
+  text-decoration: none;
+}
+.navbar a:hover{ 
+  color: #17a2b8;;
+}
