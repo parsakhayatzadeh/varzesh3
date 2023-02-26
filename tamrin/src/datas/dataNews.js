@@ -1,7 +1,67 @@
 const dataNews = [{
         type: "newest",
         version: "Internal",
+        msg: "پدر عزت الهی علیه قهرمانی استقلال در جام حذفی"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: "کشف یک کریم باقری دیگر از دیار آذربایجان"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: "نقطه پنالتی به رنگ قرمز، نود دقیقه روی خاک اره!"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: " خالد آبادی: آقا مهرداد از من بهتر پنالتی می‌گیرد"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: "موعود بنیادی‌فر هم‌رده فغانی شد"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: "تجویز داروی فراموشی پرسپولیس در دوحه!"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: "تجویز داروی فراموشی پرسپولیس در دوحه!"
+    },
+    {
+        type: "newest",
+        version: "Internal",
         msg: "مهرداد بعد از سوپرگل مقابل بشار (عکس)"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: "روی سکوها قشنگ‌تر است اما کنار زمین باش!"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: "بلیت فروشی فولاد - الهلال شروع شد (عکس)"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: "طلسم سیامک نعمتی شکست"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: "آخرین وضعیت صادقی و دیاباته برابر سپاهان"
+    },
+    {
+        type: "newest",
+        version: "Internal",
+        msg: "خیبر از خرم‌آباد به مشهد کوچ کرد!"
     },
     {
         type: "newest",
@@ -36,31 +96,6 @@ const dataNews = [{
         type: "newest",
         version: "Internal",
         msg: "یحیی و کادر فنی‌اش سپاهان را آنالیز کردند"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "روی سکوها قشنگ‌تر است اما کنار زمین باش!"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "بلیت فروشی فولاد - الهلال شروع شد (عکس)"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "طلسم سیامک نعمتی شکست"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "آخرین وضعیت صادقی و دیاباته برابر سپاهان"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "خیبر از خرم‌آباد به مشهد کوچ کرد!"
     },
     {
         type: "newest",
@@ -111,41 +146,6 @@ const dataNews = [{
         type: "newest",
         version: "Internal",
         msg: "ترکیب مطهری در جام حذفی با ۲ تغییر"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "پدر عزت الهی علیه قهرمانی استقلال در جام حذفی"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "کشف یک کریم باقری دیگر از دیار آذربایجان"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "نقطه پنالتی به رنگ قرمز، نود دقیقه روی خاک اره!"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: " خالد آبادی: آقا مهرداد از من بهتر پنالتی می‌گیرد"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "موعود بنیادی‌فر هم‌رده فغانی شد"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "تجویز داروی فراموشی پرسپولیس در دوحه!"
-    },
-    {
-        type: "newest",
-        version: "Internal",
-        msg: "تجویز داروی فراموشی پرسپولیس در دوحه!"
     },
     {
         type: "newest",
@@ -1147,332 +1147,373 @@ const dataNews = [{
         msg: "نکونام: بازی بعد روی نیمکت فولاد نخواهم بود"
     }, {
         type: "mostvisited",
-        
+
         msg: "نکونام: بازی بعد روی نیمکت فولاد نخواهم بود"
-    },{
-        type:"controversial",
-    
+    }, {
+        type: "controversial",
+
         msg: "آخرین بازی دوستانه تیم جوانان قبل از سفر به فرغانه"
     },
-    {
-        type:"controversial",
-    
-        msg: "فوری: فولاد - الهلال در یک چهارم نهایی!"
-    }, {
-        type:"controversial",
-    
-        msg: "هیچ جا برای مسی بارسلونا نمی‌شود"
-    }, {
-        type:"controversial",
-    
-        msg: "اینزاگی: پورتو عالی است ولی ما صعود می‌کنیم"
-    }, {
-        type:"controversial",
-    
-        msg: "رسمی: هافبک مصری آرسنال تا ۲۰۲۴ تمدید کرد"
-    }, {
-        type:"controversial",
-    
-        msg: "کنایه‌های ادامه‌دار به پیکه در آهنگ جدید شکیرا"
-    }, {
-        type:"controversial",
-    
-        msg: "خواب استعفای من را ببینی: تو فوبیای بارسلونا داری!"
-    }, {
-        type:"controversial",
-    
-        msg: "سکوت عجیب مدیران رئال در قضیه بارساگیت!"
-    }, {
-        type:"controversial",
-    
-        msg: "کنایه تند مفسر معروف به یاران احمد نوراللهی"
-    }, {
-        type:"controversial",
-    
-        msg: "جمله مودریچ که هواداران رئال را نگران کرد"
-    }, {
-        type:"controversial",
-    
-        msg: "از پرسپولیس تا الاهلی: شجاع و کنعانی علیه بغداد"
-    }, {
-        type:"controversial",
-    
-        msg: "بیشترین زمان وقت اضافه تاریخ فوتبال گرفته شد"
-    }, {
-        type:"controversial",
-    
-        msg: "داور فرانسوی برای بازی برگشت یونایتد-بارسلونا"
-    }, {
-        type:"controversial",
-    
-        msg: "امسال ناپولی در چمپیونزلیگ طلسم‌شکنی می‌کند"
-    }, {
-        type:"controversial",
-    
-        msg: "دوئل دونده‌ها در دویچ‌بانک: کولو موآنی مقابل اوسیمن"
-    }, {
-        type:"controversial",
-    
-        msg: "بنیتس: دوران حضورم در رئال خیلی هم بد نبود"
-    }, {
-        type:"controversial",
-    
-        msg: "بنیتس: دوران حضورم در رئال خیلی هم بد نبود"
-    }, {
-        type:"controversial",
-    
-        msg: "درگذشت اسطوره و رئیس افتخاری باشگاه رئال مادرید"
-    }, {
-        type:"controversial",
-    
-        msg: "اگر بدن مسی بگذارد، در جام جهانی 2026 بازی می‌کند!"
-    }, {
-        type:"controversial",
-    
-        msg: "گزارش تصویری استقلال - ملوان"
-    }, {
-        type:"controversial",
-    
-        msg: "اعتراف به اشتباه بزرگ: توخل در یک قدمی PSG!"
-    }, {
-        type:"controversial",
-    
-        msg: "آمار درخشان وینی: قاتل لیورپول از راه رسید!"
-    }, {
-        type:"controversial",
-    
-        msg: "جورجینیو: به آرسنال رفتم چون چلسی من را نخواست"
-    }, {
-        type:"controversial",
-    
-        msg: "هدیه عجیب کلوپ به آنچلوتی: سیگار الکترونیکی!"
-    }, {
-        type:"controversial",
-    
-        msg: "حتی اگر مسی برود: نیمار می‌خواهد در پاریس بماند"
-    }, {
-        type:"controversial",
-    
-        msg: "قدردانی احمد نور و یاران از هواداران پس از باخت"
-    }, {
-        type:"controversial",
-    
-        msg: "ادعای ستاره آرسنال: ساکا مثل رونالدو، مسی و نیمار!"
-    }, {
-        type:"controversial",
-    
-        msg: "در پاریس من رییسم، نه امباپه و مسی و گالتیه!"
-    }, {
-        type:"controversial",
-    
-        msg: "کلوپ: رئال حتی وقتی در اوج نیست هم شانس دارد"
-    }, {
-        type:"controversial",
-    
-        msg: "مامور مهار طارمی مشخص شد"
-    }, {
-        type:"controversial",
-    
-        msg: "راهکار هواداران لیورپول: رئالی‌ها نباید بخوابند! (عکس)"
-    }, {
-        type:"controversial",
-    
-        msg: "فولاد و الهلال یک روز کمتر استراحت می‌کنند"
-    }, {
-        type:"controversial",
-    
-        msg: "لاپورتا با این رسوایی باید از بارسا برود!"
-    }, {
-        type:"controversial",
-    
-        msg: "بعد از 11 سال: بلیت بازی‌های یونایتد گران شد"
-    }, {
-        type:"controversial",
-    
-        msg: "صلاح و انتقامی که باید از رئال بگیرد"
-    }, {
-        type:"controversial",
-    
-        msg: "آبی‌های شگفت انگیز در قلعه عقاب‌ها"
-    }, {
-        type:"controversial",
-    
-        msg: "هیچ تیمی نمی‌خواهد به الهلال بخورد"
-    }, {
-        type:"controversial",
-    
-        msg: "باشگاه رونالدو زندانی کردن خبرنگار را تکذیب کرد"
-    }, {
-        type:"controversial",
-    
-        msg: "گزارش: راز سرود تو هرگز تنها قدم نخواهی زد"
-    }, {
-        type:"controversial",
-    
-        msg: "ماجد ناصر: گل‌هایی که نزدیم الهلال را به دور بعد برد!"
-    }, {
-        type:"controversial",
-    
-        msg: "خاکپو با سودای حذف رئال در دومین تجربه لیگ قهرمانان!"
-    }, {
-        type:"controversial",
-    
-        msg: "اسپالتی: نمی‌دانم کلیشه ضد ایتالیایی از کجا می‌آید"
-    }, {
-        type:"controversial",
-    
-        msg: "دروازه‌بان الفیصلی: مقابل فولاد چیزی کم نگذاشتیم"
-    }, {
-        type:"controversial",
-    
-        msg: "لیورپول - رئال مادرید، چه مسابقه‌ای بشود!"
-    }, {
-        type:"controversial",
-    
-        msg: "تایید بدبینانه‌ترین پیش‌بینی‌ها در مورد پدری"
-    }, {
-        type:"controversial",
-    
-        msg: "شیرجه‌ای که الهلال را از حذف نجات داد"
-    }, {
-        type:"controversial",
-    
-        msg: "ستاره دورتموند غایب بزرگ بازی با چلسی"
-    }, {
-        type:"controversial",
-    
-        msg: "غایب بزرگ کلوپ شاید به رئال برسد (عکس)"
-    }, {
-        type:"controversial",
-    
-        msg: "خط و نشان شجاع و کنعانی‌ زادگان جلوی چشم کی‌روش"
-    }, {
-        type:"controversial",
-    
-        msg: "آزمون: شماره پیراهنم در مارسی مشخص شده بود"
-    }, {
-        type:"controversial",
-    
-        msg: "شاید فردا اتفاق بیفتد: آزادی دنی آلوز از زندان"
-    }, {
-        type:"controversial",
-    
-        msg: "خاکپو با سودای حذف رئال در دومین تجربه لیگ قهرمانان!"
-    }, {
-        type:"controversial",
-    
+    , {
+        type: "controversial",
+
         msg: "شگفت انگیزترین ضربات ایستگاهی 2023"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "بائو: هدایت تیم ملی برازنده قلعه‌نوییست"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "تمرینات رئالی‌ها پیش از رویارویی با لیورپول"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "کنعانی‌زادگان مانع گل تساوی السد به الاهلی شد"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "گزارش تصویری استقلال - ملوان"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "مراسم جشن تولد 56 سالگی روبرتو باجو اینبار در بوشهر"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "فولاد ایران حریف الهلال عربستان شد"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "برترین گلهای هفته 24 لیگ یک فرانسه"
+    },
+    {
+        type: "controversial",
+
+        msg: "فوری: فولاد - الهلال در یک چهارم نهایی!"
     }, {
-        type:"controversial",
-    
-        msg: "خلیلی: پرسپولیس هنوز چیزی از دست نداده"
+        type: "controversial",
+
+        msg: "هیچ جا برای مسی بارسلونا نمی‌شود"
     }, {
-        type:"controversial",
-    
-        msg: "برهانی: فشار زیادی روی ساپینتو آوردند"
+        type: "controversial",
+
+        msg: "اینزاگی: پورتو عالی است ولی ما صعود می‌کنیم"
     }, {
-        type:"controversial",
-    
-        msg: "خلیلی: مسئولین اصلا به فکر فوتبال پایه نیستند"
+        type: "controversial",
+
+        msg: "رسمی: هافبک مصری آرسنال تا ۲۰۲۴ تمدید کرد"
     }, {
-        type:"controversial",
-    
-        msg: "خلاصه بازی الهلال3 - شباب الاهلی امارات 1"
+        type: "controversial",
+
+        msg: "کنایه‌های ادامه‌دار به پیکه در آهنگ جدید شکیرا"
     }, {
-        type:"controversial",
-    
-        msg: "روش جدید مسئولین برای خشک کردن زمین چمن"
+        type: "controversial",
+
+        msg: "خواب استعفای من را ببینی: تو فوبیای بارسلونا داری!"
     }, {
-        type:"controversial",
-    
-        msg: "روش جدید مسئولین برای خشک کردن زمین چمندر فوتبال پایه، بعضی مربیان دنبال کاسبی هستند"
+        type: "controversial",
+
+        msg: "سکوت عجیب مدیران رئال در قضیه بارساگیت!"
     }, {
-        type:"controversial",
-    
-        msg: "در فوتبال پایه، بعضی مربیان دنبال کاسبی هستند"
+        type: "controversial",
+
+        msg: "کنایه تند مفسر معروف به یاران احمد نوراللهی"
     }, {
-        type:"controversial",
-    
-        msg: "دیگر هافبک خلاق و بازیساز نداریم"
+        type: "controversial",
+
+        msg: "جمله مودریچ که هواداران رئال را نگران کرد"
     }, {
-        type:"controversial",
-    
-        msg: "قایدی می‌توانست جای مسی باشد"
+        type: "controversial",
+
+        msg: "از پرسپولیس تا الاهلی: شجاع و کنعانی علیه بغداد"
     }, {
-        type:"controversial",
-    
-        msg: "مرادی: نکونام دلش با فولاد است و جدا نمی‌شود"
+        type: "controversial",
+
+        msg: "بیشترین زمان وقت اضافه تاریخ فوتبال گرفته شد"
     }, {
-        type:"controversial",
-    
-        msg: "برهانی: ارسلان و قایدی فوق‌العاده هستند"
+        type: "controversial",
+
+        msg: "داور فرانسوی برای بازی برگشت یونایتد-بارسلونا"
     }, {
-        type:"controversial",
-    
-        msg: "خلیلی: تفکر کی‌روش باعث تدافعی شدن تیم‌ها شد"
+        type: "controversial",
+
+        msg: "امسال ناپولی در چمپیونزلیگ طلسم‌شکنی می‌کند"
     }, {
-        type:"controversial",
-    
-        msg: "خلیلی: اکثر مربیان ما نتیجه‌گرا شدند"
+        type: "controversial",
+
+        msg: "دوئل دونده‌ها در دویچ‌بانک: کولو موآنی مقابل اوسیمن"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
+        msg: "بنیتس: دوران حضورم در رئال خیلی هم بد نبود"
+    }, {
+        type: "controversial",
+
+        msg: "بنیتس: دوران حضورم در رئال خیلی هم بد نبود"
+    }, {
+        type: "controversial",
+
+        msg: "درگذشت اسطوره و رئیس افتخاری باشگاه رئال مادرید"
+    }, {
+        type: "controversial",
+
+        msg: "اگر بدن مسی بگذارد، در جام جهانی 2026 بازی می‌کند!"
+    }, {
+        type: "controversial",
+
+        msg: "گزارش تصویری استقلال - ملوان"
+    }, {
+        type: "controversial",
+
+        msg: "اعتراف به اشتباه بزرگ: توخل در یک قدمی PSG!"
+    }, {
+        type: "controversial",
+
+        msg: "آمار درخشان وینی: قاتل لیورپول از راه رسید!"
+    }, {
+        type: "controversial",
+
+        msg: "جورجینیو: به آرسنال رفتم چون چلسی من را نخواست"
+    }, {
+        type: "controversial",
+
+        msg: "هدیه عجیب کلوپ به آنچلوتی: سیگار الکترونیکی!"
+    }, {
+        type: "controversial",
+
+        msg: "حتی اگر مسی برود: نیمار می‌خواهد در پاریس بماند"
+    }, {
+        type: "controversial",
+
+        msg: "قدردانی احمد نور و یاران از هواداران پس از باخت"
+    }, {
+        type: "controversial",
+
+        msg: "ادعای ستاره آرسنال: ساکا مثل رونالدو، مسی و نیمار!"
+    }, {
+        type: "controversial",
+
+        msg: "در پاریس من رییسم، نه امباپه و مسی و گالتیه!"
+    }, {
+        type: "controversial",
+
+        msg: "کلوپ: رئال حتی وقتی در اوج نیست هم شانس دارد"
+    }, {
+        type: "controversial",
+
+        msg: "مامور مهار طارمی مشخص شد"
+    }, {
+        type: "controversial",
+
+        msg: "راهکار هواداران لیورپول: رئالی‌ها نباید بخوابند! (عکس)"
+    }, {
+        type: "controversial",
+
+        msg: "فولاد و الهلال یک روز کمتر استراحت می‌کنند"
+    }, {
+        type: "controversial",
+
+        msg: "لاپورتا با این رسوایی باید از بارسا برود!"
+    }, {
+        type: "controversial",
+
+        msg: "بعد از 11 سال: بلیت بازی‌های یونایتد گران شد"
+    }, {
+        type: "controversial",
+
+        msg: "صلاح و انتقامی که باید از رئال بگیرد"
+    }, {
+        type: "controversial",
+
+        msg: "آبی‌های شگفت انگیز در قلعه عقاب‌ها"
+    }, {
+        type: "controversial",
+
+        msg: "هیچ تیمی نمی‌خواهد به الهلال بخورد"
+    }, {
+        type: "controversial",
+
+        msg: "باشگاه رونالدو زندانی کردن خبرنگار را تکذیب کرد"
+    }, {
+        type: "controversial",
+
+        msg: "گزارش: راز سرود تو هرگز تنها قدم نخواهی زد"
+    }, {
+        type: "controversial",
+
+        msg: "ماجد ناصر: گل‌هایی که نزدیم الهلال را به دور بعد برد!"
+    }, {
+        type: "controversial",
+
         msg: "خاکپو با سودای حذف رئال در دومین تجربه لیگ قهرمانان!"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
+        msg: "اسپالتی: نمی‌دانم کلیشه ضد ایتالیایی از کجا می‌آید"
+    }, {
+        type: "controversial",
+
+        msg: "دروازه‌بان الفیصلی: مقابل فولاد چیزی کم نگذاشتیم"
+    }, {
+        type: "controversial",
+
+        msg: "لیورپول - رئال مادرید، چه مسابقه‌ای بشود!"
+    }, {
+        type: "controversial",
+
+        msg: "تایید بدبینانه‌ترین پیش‌بینی‌ها در مورد پدری"
+    }, {
+        type: "controversial",
+
+        msg: "شیرجه‌ای که الهلال را از حذف نجات داد"
+    }, {
+        type: "controversial",
+
+        msg: "ستاره دورتموند غایب بزرگ بازی با چلسی"
+    }, {
+        type: "controversial",
+
+        msg: "غایب بزرگ کلوپ شاید به رئال برسد (عکس)"
+    }, {
+        type: "controversial",
+
+        msg: "خط و نشان شجاع و کنعانی‌ زادگان جلوی چشم کی‌روش"
+    }, {
+        type: "controversial",
+
+        msg: "آزمون: شماره پیراهنم در مارسی مشخص شده بود"
+    }, {
+        type: "controversial",
+
+        msg: "شاید فردا اتفاق بیفتد: آزادی دنی آلوز از زندان"
+    }, {
+        type: "controversial",
+
+        msg: "خاکپو با سودای حذف رئال در دومین تجربه لیگ قهرمانان!"
+    }, {
+        type: "controversial",
+
+        msg: "شگفت انگیزترین ضربات ایستگاهی 2023"
+    }, {
+        type: "controversial",
+
+        msg: "بائو: هدایت تیم ملی برازنده قلعه‌نوییست"
+    }, {
+        type: "controversial",
+
+        msg: "تمرینات رئالی‌ها پیش از رویارویی با لیورپول"
+    }, {
+        type: "controversial",
+
+        msg: "کنعانی‌زادگان مانع گل تساوی السد به الاهلی شد"
+    }, {
+        type: "controversial",
+
+        msg: "گزارش تصویری استقلال - ملوان"
+    }, {
+        type: "controversial",
+
+        msg: "مراسم جشن تولد 56 سالگی روبرتو باجو اینبار در بوشهر"
+    }, {
+        type: "controversial",
+
+        msg: "فولاد ایران حریف الهلال عربستان شد"
+    }, {
+        type: "controversial",
+
+        msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
+    }, {
+        type: "controversial",
+
+        msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
+    }, {
+        type: "controversial",
+
+        msg: "برترین گلهای هفته 24 لیگ یک فرانسه"
+    }, {
+        type: "controversial",
+
+        msg: "خلیلی: پرسپولیس هنوز چیزی از دست نداده"
+    }, {
+        type: "controversial",
+
+        msg: "برهانی: فشار زیادی روی ساپینتو آوردند"
+    }, {
+        type: "controversial",
+
+        msg: "خلیلی: مسئولین اصلا به فکر فوتبال پایه نیستند"
+    }, {
+        type: "controversial",
+
+        msg: "خلاصه بازی الهلال3 - شباب الاهلی امارات 1"
+    }, {
+        type: "controversial",
+
+        msg: "روش جدید مسئولین برای خشک کردن زمین چمن"
+    }, {
+        type: "controversial",
+
+        msg: "روش جدید مسئولین برای خشک کردن زمین چمندر فوتبال پایه، بعضی مربیان دنبال کاسبی هستند"
+    }, {
+        type: "controversial",
+
+        msg: "در فوتبال پایه، بعضی مربیان دنبال کاسبی هستند"
+    }, {
+        type: "controversial",
+
+        msg: "دیگر هافبک خلاق و بازیساز نداریم"
+    }, {
+        type: "controversial",
+
+        msg: "قایدی می‌توانست جای مسی باشد"
+    }, {
+        type: "controversial",
+
+        msg: "مرادی: نکونام دلش با فولاد است و جدا نمی‌شود"
+    }, {
+        type: "controversial",
+
+        msg: "برهانی: ارسلان و قایدی فوق‌العاده هستند"
+    }, {
+        type: "controversial",
+
+        msg: "خلیلی: تفکر کی‌روش باعث تدافعی شدن تیم‌ها شد"
+    }, {
+        type: "controversial",
+
+        msg: "خلیلی: اکثر مربیان ما نتیجه‌گرا شدند"
+    }, {
+        type: "controversial",
+
+        msg: "خاکپو با سودای حذف رئال در دومین تجربه لیگ قهرمانان!"
+    }, {
+        type: "controversial",
+
         msg: "مرادی: باشگاه فولاد با جدایی نکونام مخالف است"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "کارشناسی داوری دیدار استقلال - ملوان"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "نکونام: بازی بعد روی نیمکت فولاد نخواهم بود"
     }, {
-        type:"controversial",
-    
+        type: "controversial",
+
         msg: "نکونام: بازی بعد روی نیمکت فولاد نخواهم بود"
     }, {
-        type:"controversial",
-        
+        type: "controversial",
+
         msg: "نکونام: بازی بعد روی نیمکت فولاد نخواهم بود"
     }
 ]

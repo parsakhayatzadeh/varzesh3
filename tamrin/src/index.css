@@ -213,4 +213,8 @@ body {
   border: none;
   background-color: #f4f3f3;
   font-family:Beirut ;
+} 
+.hide{ 
+  visibility: hidden;
+  opacity: 0;
 }
