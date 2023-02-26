@@ -3,11 +3,11 @@ import data from "../datas/dataNews";
 
 const LastNews = () => {
     const [news, setNews] = useState(data);
-    const [internalShow, setInternalShow] = useState(true);
-    const [foreignShow, setforeginShow] = useState(false);
-    const [videoShow, setVideoShow] = useState(false)
+    const [internalShow , setInternalShow] = useState(true);
+    const [foreignShow , setforeginShow] = useState(true);
+    const [videoShow , setVideoShow] = useState(true)
 
-
+    
 
 
     const internal = document.getElementById("Internal");
@@ -16,63 +16,40 @@ const LastNews = () => {
 
     const typeCheck = (item) => {
         if (item == "newest") {
-            document.getElementById("versionContainer").className = "version-container"
+            document.getElementById("versionContainer").className="version-container"
 
 
-        } else {
+        } else{ 
             document.getElementById("versionContainer").classList.add("hide")
         }
-        setNews(data.filter((e) => e.type == item))
-
-
+            setNews(data.filter((e) => e.type == item))
+        
+        
 
     }
 
     const versionCheck = () => {
-        if (internalShow && foreignShow == false && videoShow == false) {
-            setNews(data.filter((e)=> e.version == "Internal"));
-            setInternalShow(true);
-            setforeginShow(false);
-            setVideoShow(false)
-
-        }else if (internalShow==false && foreignShow && videoShow==false){
-            setNews(data.filter((e)=> e.version == "Foreign"));
-            setInternalShow(false);
-            setforeginShow(true);
-            setVideoShow(false)
-
-        }else if( internalShow == false && foreignShow==false && videoShow){ 
-            setNews(data.filter((e)=> e.version == "video"));
-            setInternalShow(false);
-            setforeginShow(false);
-            setVideoShow(true)
-
-        }else if (internalShow && foreignShow && videoShow==false){ 
-            setNews(news.filter((e)=> e.version != "video"));
-            setInternalShow(true);
-            setforeginShow(true);
-            setVideoShow(false)
-        }else if(internalShow && foreignShow==false && videoShow){ 
-            setNews(data.filter((e)=> e.version == "Foreign"));
-            setInternalShow(true);
-            setforeginShow(false);
-            setVideoShow(true)
-
-        }else if(internalShow == false && foreignShow && videoShow){ 
-            setNews(data.filter((e)=> e.version == "Internal"));
-            setInternalShow(false);
-            setforeginShow(true);
-            setVideoShow(true)
-        }else if(internalShow&&foreignShow&&videoShow){ 
+        if (check) {
+            setNews(data.filter((e) => e.version == "Internal"))
+        } else if (check === false) {
             setNews(data)
         }
-        
     }
 
     const checked = () => {
-       
-        versionCheck();
+        if (check) {
+            console.log(check);
+            setCheck(false)
+            console.log(check);
 
+        } else {
+            console.log(check);
+            setCheck(true)
+            console.log(check);
+
+        }
+        versionCheck();
+        
 
 
     }
