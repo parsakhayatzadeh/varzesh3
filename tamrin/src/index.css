@@ -4,10 +4,20 @@
 
 }
 
+@font-face {
+  font-family: Beirut;
+  src: url(../public/384.Font.Farsi/Beirut\ Light_MRT.ttf);
+}
+
 html,
 body {
   width: 100%;
   height: 100%;
+
+}
+
+.font-Beirut {
+  font-family: Beirut;
 
 }
 
@@ -17,9 +27,24 @@ body {
   margin: 0%;
 }
 
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 15px;
+  background-color: #d9d9d9;
+
+}
+
+.item-radius {
+  border-radius: 5px;
+}
+
 .allPadding {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .section-1 {
@@ -88,6 +113,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  height: 60px;
   direction: rtl;
   box-shadow: 0 2px 18px 0 rgb(0 0 0 / 13%);
 
@@ -101,12 +127,90 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  
+
 }
-.navbar a{ 
+
+.navbar a {
   color: #212121;
   text-decoration: none;
 }
-.navbar a:hover{ 
-  color: #17a2b8;;
+
+.navbar a:hover {
+  color: #17a2b8;
+  ;
+}
+
+.left-section {
+  width: 43%;
+  direction: rtl;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.left-section-section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.left-section-section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.news-box {
+  background-color: #fff;
+  height: auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.news-box h5 {
+  text-align: center;
+  color: #00838f;
+  ;
+}
+
+.btntype-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+
+}
+
+.btntype {
+  width: 33.3333%;
+  height: 40px;
+  background-color: #fff;
+  border: 0;
+  font-size: 15px;
+}
+
+.version-container {
+  background-color: #f4f3f3;
+  display: flex;
+  flex-direction: row;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+
+
+}
+
+.version-container button {
+  width: 33.333%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #f4f3f3;
+  font-family:Beirut ;
 }

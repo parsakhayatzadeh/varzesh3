@@ -16,7 +16,7 @@ const Header = () => {
     }
     useEffect(() => {
         getTime()
-    }, [])
+    }, [time])
 
     const date = new Date();
     const option = {
@@ -26,8 +26,7 @@ const Header = () => {
         day: "numeric"
 
     }
-    console.log(date.toLocaleDateString("fa-IR", option));
-    console.log("patsa");
+    
     return (
         <main>
             <section className='section-1 allPadding'>
