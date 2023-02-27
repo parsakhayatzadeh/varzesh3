@@ -574,7 +574,138 @@ const dataNews = [{
         msg: "نکونام: بازی بعد روی نیمکت فولاد نخواهم بود"
     }
 
-    ,
+    ,, {
+        type: "newest",
+        version: "video",
+        msg: "فولاد ایران حریف الهلال عربستان شد"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "برترین گلهای هفته 24 لیگ یک فرانسه"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلیلی: پرسپولیس هنوز چیزی از دست نداده"
+    }, {
+        type: "newest",
+        version: "Foreign",
+        msg: "برهانی: فشار زیادی روی ساپینتو آوردند"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلیلی: مسئولین اصلا به فکر فوتبال پایه نیستند"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلاصه بازی الهلال3 - شباب الاهلی امارات 1"
+    },
+    , {
+        type: "newest",
+        version: "video",
+        msg: "فولاد ایران حریف الهلال عربستان شد"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "برترین گلهای هفته 24 لیگ یک فرانسه"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلیلی: پرسپولیس هنوز چیزی از دست نداده"
+    }, {
+        type: "newest",
+        version: "Foreign",
+        msg: "برهانی: فشار زیادی روی ساپینتو آوردند"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلیلی: مسئولین اصلا به فکر فوتبال پایه نیستند"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلاصه بازی الهلال3 - شباب الاهلی امارات 1"
+    },
+    , {
+        type: "newest",
+        version: "video",
+        msg: "فولاد ایران حریف الهلال عربستان شد"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "برترین گلهای هفته 24 لیگ یک فرانسه"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلیلی: پرسپولیس هنوز چیزی از دست نداده"
+    }, {
+        type: "newest",
+        version: "Foreign",
+        msg: "برهانی: فشار زیادی روی ساپینتو آوردند"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلیلی: مسئولین اصلا به فکر فوتبال پایه نیستند"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلاصه بازی الهلال3 - شباب الاهلی امارات 1"
+    },
+    , {
+        type: "newest",
+        version: "video",
+        msg: "فولاد ایران حریف الهلال عربستان شد"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "از صعود فولاد در لیگ قهرمانان تا حواشی جام حذفی"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "برترین گلهای هفته 24 لیگ یک فرانسه"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلیلی: پرسپولیس هنوز چیزی از دست نداده"
+    }, {
+        type: "newest",
+        version: "Foreign",
+        msg: "برهانی: فشار زیادی روی ساپینتو آوردند"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلیلی: مسئولین اصلا به فکر فوتبال پایه نیستند"
+    }, {
+        type: "newest",
+        version: "video",
+        msg: "خلاصه بازی الهلال3 - شباب الاهلی امارات 1"
+    },
     {
         type: "mostvisited",
 

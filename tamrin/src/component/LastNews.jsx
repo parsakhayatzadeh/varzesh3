@@ -3,9 +3,7 @@ import data from "../datas/dataNews";
 
 const LastNews = () => {
     const [news, setNews] = useState(data);
-    const [internalShow, setInternalShow] = useState(true);
-    const [foreignShow, setforeginShow] = useState(false);
-    const [videoShow, setVideoShow] = useState(false)
+
 
 
 
@@ -28,54 +26,8 @@ const LastNews = () => {
 
     }
 
-    const versionCheck = () => {
-        if (internalShow && foreignShow == false && videoShow == false) {
-            setNews(data.filter((e)=> e.version == "Internal"));
-            setInternalShow(true);
-            setforeginShow(false);
-            setVideoShow(false)
-
-        }else if (internalShow==false && foreignShow && videoShow==false){
-            setNews(data.filter((e)=> e.version == "Foreign"));
-            setInternalShow(false);
-            setforeginShow(true);
-            setVideoShow(false)
-
-        }else if( internalShow == false && foreignShow==false && videoShow){ 
-            setNews(data.filter((e)=> e.version == "video"));
-            setInternalShow(false);
-            setforeginShow(false);
-            setVideoShow(true)
-
-        }else if (internalShow && foreignShow && videoShow==false){ 
-            setNews(news.filter((e)=> e.version != "video"));
-            setInternalShow(true);
-            setforeginShow(true);
-            setVideoShow(false)
-        }else if(internalShow && foreignShow==false && videoShow){ 
-            setNews(data.filter((e)=> e.version == "Foreign"));
-            setInternalShow(true);
-            setforeginShow(false);
-            setVideoShow(true)
-
-        }else if(internalShow == false && foreignShow && videoShow){ 
-            setNews(data.filter((e)=> e.version == "Internal"));
-            setInternalShow(false);
-            setforeginShow(true);
-            setVideoShow(true)
-        }else if(internalShow&&foreignShow&&videoShow){ 
-            setNews(data)
-        }
-        
-    }
-
-    const checked = () => {
-       
-        versionCheck();
 
 
-
-    }
 
 
 
@@ -88,30 +40,39 @@ const LastNews = () => {
                 <button onClick={() => typeCheck("mostvisited")} className="btntype font-Beirut">پربازدیدترین</button>
                 <button onClick={() => typeCheck("controversial")} className="btntype font-Beirut">پربحث ترین </button>
             </div>
-            <div id='versionContainer' className='version-container'>
+            <form id='versionContainer' className='version-container'>
 
-                <button >
-                    <input type={'checkbox'} id="Internal" onClick={() => checked()} />
+
+
+                <button>
+                    <input type={'radio'} id="Internal" name='parsa' onClick={() => setNews(data.filter((e) => e.version == "Internal"))} />
                     <label htmlFor="Internal">داخلی</label>
                 </button>
-                <button >
-                    <input type={'checkbox'} id="Foreign" onClick={() => checked()} />
+
+
+
+                <button>
+                    <input type={'radio'} id="Foreign" name='parsa' onClick={() => setNews(data.filter((e) => e.version == "Foreign"))} />
                     <label htmlFor="Foreign">خارجی</label>
                 </button>
-                <button >
-                    <input type={'checkbox'} id="video" onClick={() => checked()} />
-                    <label htmlFor="video">ویدیو</label>
+
+                
+                <button>
+                <input type={'radio'} id="video" name='parsa' onClick={() => setNews(data.filter((e) => e.version == "video"))} />
+                <label htmlFor="video">ویدیو</label>
                 </button>
 
 
 
-            </div>
+            </form>
 
-            {news.map((item) => {
-                return (
-                    <p>{item.msg}</p>
-                )
-            })}
+            <div className='item'>
+                {news.map((item) => {
+                    return (
+                        <p>{item.msg}</p>
+                    )
+                })}
+            </div>
 
         </div>
     )

@@ -1,4 +1,5 @@
 import React from 'react'
+import ForeignLeague from '../component/ForeignLeague'
 import LastNews from '../component/LastNews'
 
 const LeftSection = () => {
@@ -8,6 +9,8 @@ const LeftSection = () => {
                 <img src='././public/4.gif' alt='alibaba' className='item-radius' />
                 <img src="././public/5.gif" alt="gotosafar" className='item-radius' />
                 <LastNews />
+                <img src="././public/12.gif" alt="safar"className='item-radius' />
+                <ForeignLeague/>
             </div>
             <div className='left-section-section2'>
                 <img src='././public/3.gif' alt='afranet' className='item-radius' />
