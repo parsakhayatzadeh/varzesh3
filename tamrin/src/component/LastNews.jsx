@@ -3,9 +3,16 @@ import data from "../datas/dataNews";
 
 const LastNews = () => {
     const [news, setNews] = useState(data);
+<<<<<<< HEAD
 
 
+=======
+    const [internalShow , setInternalShow] = useState(true);
+    const [foreignShow , setforeginShow] = useState(true);
+    const [videoShow , setVideoShow] = useState(true)
+>>>>>>> test
 
+    
 
 
     const internal = document.getElementById("Internal");
@@ -14,20 +21,44 @@ const LastNews = () => {
 
     const typeCheck = (item) => {
         if (item == "newest") {
-            document.getElementById("versionContainer").className = "version-container"
+            document.getElementById("versionContainer").className="version-container"
 
 
-        } else {
+        } else{ 
             document.getElementById("versionContainer").classList.add("hide")
         }
-        setNews(data.filter((e) => e.type == item))
-
-
+            setNews(data.filter((e) => e.type == item))
+        
+        
 
     }
 
+<<<<<<< HEAD
 
+=======
+    const versionCheck = () => {
+        if (check) {
+            setNews(data.filter((e) => e.version == "Internal"))
+        } else if (check === false) {
+            setNews(data)
+        }
+    }
 
+    const checked = () => {
+        if (check) {
+            console.log(check);
+            setCheck(false)
+            console.log(check);
+
+        } else {
+            console.log(check);
+            setCheck(true)
+            console.log(check);
+>>>>>>> test
+
+        }
+        versionCheck();
+        
 
 
 
