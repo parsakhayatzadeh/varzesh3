@@ -14,23 +14,20 @@ const ForeignLeague = () => {
         console.log(showList);
 
     }
+
+
+
+
+
+   
     return (
         <div className='ForeignLeague item-radius'>
             <h5>لیگ های خارجی </h5>
 
             <div className='filter-ForeignLeague item-radius'>
-                <nav class="main-menu">
-                    
-                </nav>
-                <select className='item-radius' onClick={() => parsa()}>
+               
 
-                    {leage.map((item) => {
-                        return (
-                            <p onClick={() => console.log('pa')}>{item.name}</p>
-                        )
-                    })}
 
-                </select>
 
                 <select className='item-radius '  >
 

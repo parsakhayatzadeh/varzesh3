@@ -8,10 +8,12 @@
   font-family: Beirut;
   src: url(../public/384.Font.Farsi/Beirut\ Light_MRT.ttf);
 }
+
 @font-face {
   font-family: aman;
   src: url(../public/384.Font.Farsi/Aman_MRT.ttf);
 }
+
 @font-face {
   font-family: homa;
   src: url(../public/384.Font.Farsi/Homa.ttf);
@@ -245,24 +247,29 @@ body {
   width: 0px;
   background: transparent;
   /* Chrome/Safari/Webkit */
-}.ForeignLeague{ 
+}
+
+.ForeignLeague {
   display: flex;
   flex-direction: column;
   background-color: white;
   padding-top: 10px;
 
 }
-.ForeignLeague h5{
-   font-family: homa;
-   text-align: center;
+
+.ForeignLeague h5 {
+  font-family: homa;
+  text-align: center;
 }
-.filter-ForeignLeague{ 
-  
+
+.filter-ForeignLeague {
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.filter-ForeignLeague select{ 
+
+.filter-ForeignLeague select {
   font-family: homa;
   width: 120px;
   height: 30px;
@@ -270,38 +277,21 @@ body {
   border: none;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.p{ 
+
+.p {
   display: flex;
   flex-direction: column;
 }
-body {
-  direction: rtl;
-  font-size: 14px;
-  text-align: right;
-  color: #303030;
-  line-height: 30px;
-  font-family: 'iransans';
-  }
-  
-  .main-menu {
-  float: right;
-  }
-  .main-menu > ul > li {
+
+
+
+.main-menu>ul>li {
   float: right;
   list-style: none;
   position: relative;
-  }
-  .main-menu ul li a {
-  padding: 26px 22px;
-  display: inline-block;
-  font-size: 15px;
-  text-decoration: none;
-  color: #454647;
-  font-weight: bold;
-  }
-  .main-menu ul li a i {
-  margin-right: 5px;
-  }
+}
+
+
 .main-menu ul li ul {
   position: absolute;
   width: 250px;
@@ -313,22 +303,21 @@ body {
   visibility: hidden;
   transition: all .2s ease-in-out;
   z-index: 999;
-  }
-  .main-menu ul li ul li {
+}
+
+.main-menu ul li ul li {
   list-style: none;
-  }
-  .main-menu ul li ul li a {
+}
+
+.main-menu ul li ul li a {
   padding: 9px 15px;
   display: block;
   font-weight: normal;
-  
-  }
-  .main-menu ul li ul li a:hover {
-  background: #5caf21;
-  color: #fff;
-  }
-  .main-menu > ul > li:hover ul {
+
+}
+
+.main-menu>ul>li:hover ul {
   opacity: 1;
   visibility: visible;
-  top: 83px;
-  }
+  top: 23px;
+}
