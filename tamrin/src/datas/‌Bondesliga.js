@@ -5,7 +5,7 @@ const Bondesliga = [
         team2: "لایپزیش",
         result: "2-0",
         week: 1,
-        league: "c"
+        league: "bondesliga"
 
     },
 

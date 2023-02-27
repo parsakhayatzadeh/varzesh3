@@ -3,14 +3,12 @@ import data from "../datas/dataNews";
 
 const LastNews = () => {
     const [news, setNews] = useState(data);
-<<<<<<< HEAD
 
 
-=======
+
     const [internalShow , setInternalShow] = useState(true);
     const [foreignShow , setforeginShow] = useState(true);
     const [videoShow , setVideoShow] = useState(true)
->>>>>>> test
 
     
 
@@ -33,9 +31,8 @@ const LastNews = () => {
 
     }
 
-<<<<<<< HEAD
 
-=======
+
     const versionCheck = () => {
         if (check) {
             setNews(data.filter((e) => e.version == "Internal"))
@@ -54,7 +51,6 @@ const LastNews = () => {
             console.log(check);
             setCheck(true)
             console.log(check);
->>>>>>> test
 
         }
         versionCheck();
@@ -108,5 +104,5 @@ const LastNews = () => {
         </div>
     )
 }
-
+}
 export default LastNews
