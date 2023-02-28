@@ -11,8 +11,8 @@ function App() {
     <section>
       <Header/>
       <div className='main allPadding' >
-        <RightSection/>
         <LeftSection/>
+        <RightSection/>
 
       </div>
       
