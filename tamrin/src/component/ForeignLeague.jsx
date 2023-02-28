@@ -4,14 +4,16 @@ import Bondesliga from "../datas/‌Bondesliga";
 const ForeignLeague = () => {
     const [england, setEngland] = useState(England);
     const [bondesliga, setBondesliga] = useState(Bondesliga);
-    const [showList, setShowList] = useState(bondesliga)
+    const [showList, setShowList] = useState(bondesliga);
+    const [leagueName, setLeagueName] = useState('england');
 
 
     const week = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    const leage = [{ name: 'لیگ برتر انگلستان', lege: england }, { name: "بوندسلیگا المان", lege: bondesliga }]
+    const leage = [{ name: 'لیگ برتر انگلستان', lege: 'england' }, { name: "بوندسلیگا المان", lege: 'bondesliga' }];
+    const changeList = (item) => {
 
-    const parsa = () => {
-        console.log(showList);
+        const newItem = item.target.value;
+        set
 
     }
 
@@ -19,13 +21,19 @@ const ForeignLeague = () => {
 
 
 
-   
+
+
+
     return (
         <div className='ForeignLeague item-radius'>
             <h5>لیگ های خارجی </h5>
 
             <div className='filter-ForeignLeague item-radius'>
-               
+                <select value={leagueName} onChange={() => changeList()}>
+                    {}
+
+                    
+                </select>
 
 
 
