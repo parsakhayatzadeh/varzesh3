@@ -3,9 +3,6 @@ import data from "../datas/dataNews";
 
 const LastNews = () => {
     const [news, setNews] = useState(data);
-
-
-
     const [internalShow , setInternalShow] = useState(true);
     const [foreignShow , setforeginShow] = useState(true);
     const [videoShow , setVideoShow] = useState(true)
@@ -31,8 +28,6 @@ const LastNews = () => {
 
     }
 
-
-
     const versionCheck = () => {
         if (check) {
             setNews(data.filter((e) => e.version == "Internal"))
@@ -57,6 +52,9 @@ const LastNews = () => {
         
 
 
+    }
+
+
 
 
     return (
@@ -67,42 +65,33 @@ const LastNews = () => {
                 <button onClick={() => typeCheck("mostvisited")} className="btntype font-Beirut">پربازدیدترین</button>
                 <button onClick={() => typeCheck("controversial")} className="btntype font-Beirut">پربحث ترین </button>
             </div>
-            <form id='versionContainer' className='version-container'>
+            <div id='versionContainer' className='version-container'>
 
-
-
-                <button>
-                    <input type={'radio'} id="Internal" name='parsa' onClick={() => setNews(data.filter((e) => e.version == "Internal"))} />
+                <button >
+                    <input type={'checkbox'} id="Internal" onClick={() => checked()} />
                     <label htmlFor="Internal">داخلی</label>
                 </button>
-
-
-
-                <button>
-                    <input type={'radio'} id="Foreign" name='parsa' onClick={() => setNews(data.filter((e) => e.version == "Foreign"))} />
+                <button >
+                    <input type={'checkbox'} id="Foreign" onClick={() => checked()} />
                     <label htmlFor="Foreign">خارجی</label>
                 </button>
-
-                
-                <button>
-                <input type={'radio'} id="video" name='parsa' onClick={() => setNews(data.filter((e) => e.version == "video"))} />
-                <label htmlFor="video">ویدیو</label>
+                <button >
+                    <input type={'checkbox'} id="video" onClick={() => checked()} />
+                    <label htmlFor="video">ویدیو</label>
                 </button>
 
 
 
-            </form>
-
-            <div className='item'>
-                {news.map((item) => {
-                    return (
-                        <p>{item.msg}</p>
-                    )
-                })}
             </div>
+
+            {news.map((item) => {
+                return (
+                    <p>{item.msg}</p>
+                )
+            })}
 
         </div>
     )
 }
-}
+
 export default LastNews
