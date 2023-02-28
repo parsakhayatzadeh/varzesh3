@@ -10,6 +10,7 @@ const LeftSection = () => {
                 <img src="././public/5.gif" alt="gotosafar" className='item-radius' />
                 <LastNews />
                 <img src="././public/12.gif" alt="safar"className='item-radius' />
+                <ForeignLeague/>
               
                
                
