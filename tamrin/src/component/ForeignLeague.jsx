@@ -6,7 +6,7 @@ const ForeignLeague = () => {
     const [england, setEngland] = useState(England);
     const [bondesliga, setBondesliga] = useState(Bondesliga);
     const [showList, setShowList] = useState(england);
-    const [leagueName, setLeagueName] = useState('england')
+    const [leagueName, setLeagueName] = useState('england');
 
     const week = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     const leage = [{ name: 'لیگ برتر انگلستان', lege: 'england', data: england },
@@ -17,8 +17,8 @@ const ForeignLeague = () => {
         console.log(newValue);
         if (newValue == "england") {
             setShowList(england)
-            
-        }else if( newValue == "bondesliga"){ 
+
+        } else if (newValue == "bondesliga") {
             setShowList(bondesliga)
         }
 
@@ -31,10 +31,10 @@ const ForeignLeague = () => {
             <h5>لیگ های خارجی </h5>
 
             <div className='filter-ForeignLeague item-radius'>
-                <select id='parsa' className='item-radius' value={leagueName} onChange={changeLeague} >
+                <select className='item-radius' value={leagueName} onChange={changeLeague} >
 
                     {leage.map((item) => {
-                        return( 
+                        return (
                             <option value={item.lege}>{item.name}</option>
                         )
                     })}
