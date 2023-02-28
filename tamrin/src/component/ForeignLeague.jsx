@@ -13,7 +13,12 @@ const ForeignLeague = () => {
     const changeList = (item) => {
 
         const newItem = item.target.value;
-        set
+        setLeagueName(newItem)
+        if (newItem == "england") {
+            setShowList(england);
+        }else if(newItem == "bondesliga"){ 
+            setShowList(bondesliga)
+        }
 
     }
 
@@ -29,8 +34,12 @@ const ForeignLeague = () => {
             <h5>لیگ های خارجی </h5>
 
             <div className='filter-ForeignLeague item-radius'>
-                <select value={leagueName} onChange={() => changeList()}>
-                    {}
+                <select value={leagueName} onChange={changeList}>
+                    {leage.map((item) =>{ 
+                        return(
+                            <option value={item.lege}>{item.name}</option>
+                        )
+                    })}
 
                     
                 </select>
