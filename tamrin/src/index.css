@@ -30,6 +30,9 @@ body {
   font-family: Beirut;
 
 }
+.font-homa{ 
+  font-family: homa;
+}
 
 * {
   box-sizing: border-box;
@@ -156,6 +159,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 15px;
+
 }
 
 .left-section-section1 {
@@ -319,4 +323,74 @@ body {
 .test {
   color: #00838f;
 
+}
+
+.slidre {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+
+.slider1 {
+  margin: 0 auto;
+
+  position: absolute;
+  max-width: 800px;
+  text-align: center;
+
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.lastSlide {
+  transform: translateX(-100%);
+}
+
+.nextSlide {
+  transform: translateX(100%);
+}
+
+.slider-img {
+  width: 300px;
+
+
+}
+
+.head-slider {
+  background-color: #ffffff;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.head-slider h5{ 
+  margin-top: 10px;
+}
+
+
+
+.item-next {
+  margin-top: 270px;
+}
+
+.slider-footer {
+  background-color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  max-width: 300px;
+
+}
+.p{ 
+  width: 50px;
 }

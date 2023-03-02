@@ -140,7 +140,7 @@ const England = [
 
         team1: "کریستال پالاس",
         team2: "آرسنال",
-        result: "2-0",
+        result: "2-2",
         week: 3,
         league: "england"
 
