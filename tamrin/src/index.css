@@ -31,6 +31,10 @@ body {
 
 }
 
+.font-homa {
+  font-family: homa;
+}
+
 * {
   box-sizing: border-box;
   padding: 0%;
@@ -156,6 +160,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 15px;
+
 }
 
 .left-section-section1 {
@@ -174,7 +179,9 @@ body {
   background-color: #fff;
   height: auto;
   width: 300px;
-
+  min-height: 650px;
+  max-height: 650px;
+  overflow: scroll;
   display: flex;
   flex-direction: column;
 
@@ -278,11 +285,12 @@ body {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.p {
+.p {}
+.show-list-box {
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-
 
 
 .main-menu>ul>li {
@@ -320,4 +328,226 @@ body {
   opacity: 1;
   visibility: visible;
   top: 23px;
+}
+.show-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+}
+
+.show-list-head {
+  margin-top: 15px;
+  width: 100%;
+  height: 30px;
+  background-color: #4285f4;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 160px;
+  max-width: 160px;
+}
+
+.play-icon {
+  font-size: 15px;
+  color: #00838f;
+}
+
+.test {
+  color: #00838f;
+
+}
+
+.slidre {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.slider1 {
+  margin: 0 auto;
+
+  position: absolute;
+  max-width: 800px;
+  text-align: center;
+
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.lastSlide {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.nextSlide {
+ opacity: 0;
+  transform: translateX(100%);
+}
+
+.slider-img {
+  width: 300px;
+
+
+}
+
+.head-slider {
+  background-color: #ffffff;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.head-slider h5 {
+  margin-top: 10px;
+}
+
+
+
+.item-next {
+  margin-top: 270px;
+}
+
+.slider-footer {
+  background-color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  max-width: 300px;
+
+}
+
+.p {
+  width: 50px;
+}
+
+.league-section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.league-section h4 {
+  font-family: homa;
+  color: #17a2b8;
+  text-align: center;
+}
+
+.item-league {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+
+
+}
+
+.item-league div {
+  min-width: 30%;
+  max-width: 30%;
+}
+
+
+.item-name {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+}
+
+.rank {
+  min-width: 30px;
+  max-width: 30px;
+  text-align: center;
+
+}
+
+.team {
+  min-width: 110px;
+  max-width: 110px;
+  text-align: center;
+
+
+}
+
+.game {
+  min-width: 15px;
+  max-width: 15px;
+
+}
+
+.point {
+  min-width: 15px;
+  max-width: 15px;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.gray {
+  background-color: #d9d9d9;
+}
+
+.show-list-head p {
+  text-align: center;
+  font-family: homa;
+  color: white;
+}
+
+.right-section {
+  width: 53%;
+}
+
+.big-slider {
+  width: 700px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  direction: rtl;
+  position: absolute;
+
+
+}
+
+.big-slider div{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.section2-bigslider {
+  display: flex; 
+  flex-direction: column;
+  padding: 10px;
+}
+.index-btn{ 
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.index-btn button{ 
+  border: transparent;
+   width: 20px;
+
 }
