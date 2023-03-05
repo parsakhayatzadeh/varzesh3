@@ -30,7 +30,8 @@ body {
   font-family: Beirut;
 
 }
-.font-homa{ 
+
+.font-homa {
   font-family: homa;
 }
 
@@ -329,7 +330,6 @@ body {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-
 }
 
 
@@ -352,10 +352,12 @@ body {
 }
 
 .lastSlide {
+  opacity: 0;
   transform: translateX(-100%);
 }
 
 .nextSlide {
+ opacity: 0;
   transform: translateX(100%);
 }
 
@@ -373,7 +375,8 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-.head-slider h5{ 
+
+.head-slider h5 {
   margin-top: 10px;
 }
 
@@ -391,6 +394,122 @@ body {
   max-width: 300px;
 
 }
-.p{ 
+
+.p {
   width: 50px;
+}
+
+.league-section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.league-section h4 {
+  font-family: homa;
+  color: #17a2b8;
+  text-align: center;
+}
+
+.item-league {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+
+
+}
+
+.item-league div {
+  min-width: 30%;
+  max-width: 30%;
+}
+
+
+.item-name {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+}
+
+.rank {
+  min-width: 30px;
+  max-width: 30px;
+  text-align: center;
+
+}
+
+.team {
+  min-width: 110px;
+  max-width: 110px;
+  text-align: center;
+
+
+}
+
+.game {
+  min-width: 15px;
+  max-width: 15px;
+
+}
+
+.point {
+  min-width: 15px;
+  max-width: 15px;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.gray {
+  background-color: #d9d9d9;
+}
+
+.show-list-head p {
+  text-align: center;
+  font-family: homa;
+  color: white;
+}
+
+.right-section {
+  width: 53%;
+}
+
+.big-slider {
+  width: 700px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  direction: rtl;
+  position: absolute;
+
+
+}
+
+.big-slider div{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.section2-bigslider {
+  display: flex; 
+  flex-direction: column;
+  padding: 10px;
+}
+.index-btn{ 
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.index-btn button{ 
+  border: transparent;
+   width: 20px;
+
 }

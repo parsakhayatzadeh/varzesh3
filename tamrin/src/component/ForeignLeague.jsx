@@ -2,16 +2,16 @@ import React, { useEffect, useState } from 'react'
 import England from "../datas/England"
 import Bondesliga from "../datas/‌Bondesliga";
 import FoleginLeagueListItem from './FoleginLeagueListItem';
-const test = document.getElementById("parsa")
 const ForeignLeague = () => {
 
- 
+
 
 
     const [england, setEngland] = useState(England.filter((e) => e.week == 1));
     const [bondesliga, setBondesliga] = useState(Bondesliga.filter((e) => e.week == 1));
     const [showList, setShowList] = useState(england);
     const [leagueName, setLeagueName] = useState('england');
+
     
 
 

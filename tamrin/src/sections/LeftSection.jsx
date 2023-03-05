@@ -2,11 +2,22 @@ import React, { useState } from 'react'
 import ForeignLeague from '../component/ForeignLeague'
 import HeadSlider from '../component/HeadSlider'
 import LastNews from '../component/LastNews'
+import LeagueofEuropeanNations from '../component/LeagueofEuropeanNations'
+import Leagues from '../component/Leagues'
 import Slider from '../component/Slider'
-import Slider1 from '../datas/Slider1'
+import Slider1 from '../datas/Slider1';
+import Slider2 from '../datas/SLider2'
+import League from '../datas/League'
+
 
 const LeftSection = () => {
-    const [parsa, setParsa] = useState(Slider1)
+    const [slider1, SetSlider1] = useState(Slider1);
+    console.log(League);
+
+
+   
+
+
     return (
         <section className='left-section'>
             <div className='left-section-section1'>
@@ -16,23 +27,38 @@ const LeftSection = () => {
                 <img src="././public/12.gif" alt="safar" className='item-radius' />
                 <ForeignLeague />
                 <div className='slider'>
-                    <HeadSlider/>
-                    {parsa.map((item, Itemindex) => {
+                    <HeadSlider />
+                    {slider1.map((item, Itemindex) => {
 
                         return (
-                           <div>
-                             <Slider item={item} {...item} Itemindex={Itemindex} />
-                             
-                           </div>
-                            
+                            <div>
+                                <Slider item={item} {...item} Itemindex={Itemindex} />
+
+                            </div>
+
                         )
                     })}
                 </div>
-                
-               <div  className='item-next'>
-               <LastNews/>
-               </div>
-               
+
+                <div className='item-next'>
+                    <LeagueofEuropeanNations />
+
+                </div>
+                <div>
+                    <HeadSlider />
+                    {Slider2.map((item, Itemindex) => {
+
+                        return (
+                            <div>
+                                <Slider item={item} {...item} Itemindex={Itemindex} />
+                            </div>
+                        )
+                    })}
+                </div>
+                <div className='item-next'>
+                    <Leagues  data={League} name="جدول لیگ های خارجی"/>
+
+                </div>
 
 
 
