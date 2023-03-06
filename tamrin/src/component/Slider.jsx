@@ -6,7 +6,6 @@ const Slider = (item) => {
 
 
 
-
     
     let position = "nextSlide";
     if (item.Itemindex === index) {

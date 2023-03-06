@@ -31,7 +31,7 @@ const LeftSection = () => {
                 <ForeignLeague />
                 <div className='slider'>
                     <HeadSlider />
-                    {slider1.map((item, Itemindex) => {
+                    {Slider1.map((item, Itemindex) => {
 
                         return (
                             <div>
