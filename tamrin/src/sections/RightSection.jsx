@@ -33,7 +33,7 @@ const RightSection = () => {
                
             
 
-            <Leagues/>
+            <Leagues />
           </section>
 
         </div>
