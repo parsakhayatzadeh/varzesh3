@@ -528,11 +528,8 @@ body {
   width: 45%;
 }
 .right-section2{
-<<<<<<< HEAD
   width:45%;
-=======
   width:50%;
->>>>>>> tamrin
   display: flex;
   flex-direction: column;
   gap: 20px;

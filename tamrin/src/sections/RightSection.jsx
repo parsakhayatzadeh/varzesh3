@@ -28,7 +28,7 @@ const RightSection = () => {
           <section className="right-section2">
           <LeagueofEuropeanNations data1={LeagueAzadegan}  data2={LeagueBartar}/>
 
-            <Leagues/>
+            
           </section>
 
         </div>
