@@ -7,7 +7,7 @@ import Leagues from '../component/Leagues'
 import Slider from '../component/Slider'
 import Slider1 from '../datas/Slider1';
 import Slider2 from '../datas/SLider2'
-import League from '../datas/League'
+import League from '../datas/League';
 import EuropeanNationsAgruop from '../datas/EuropeanNationsAgruop ';
 import EuropeanNationsBgruop from '../datas/EuropeanNationsBgruop'
 
