@@ -4,7 +4,6 @@ import Slider1 from '../datas/Slider1';
 const Slider = (item) => {
     const [data, setData] = useState(item);
     const [index, setIndex] = useState(0);
-    console.log(item);
 
 
 

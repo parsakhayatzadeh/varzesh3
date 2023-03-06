@@ -5,6 +5,10 @@ import BigSliderData from "../datas/BigSliderData"
 import LeagueBartar from '../datas/LeagueBartar';
 import LeagueAzadegan from '../datas/LeagueAzadegan';
 import LastNews from '../component/LastNews';
+import HeadSlider from '../component/HeadSlider';
+import Slider3 from '../datas/Slider3';
+import Slider from '../component/Slider';
+import Leagues from '../component/Leagues';
 
 const RightSection = () => {
   const [bigSliderData, setBigSliderData] = useState(BigSliderData)
@@ -21,14 +25,15 @@ const RightSection = () => {
 
         <div className='right-section-box'>
 
-          <section className='right-section1'>
-            <img src="../../public/25.gif" alt="" className='item-radius' />
-          </section>
+
 
           <section className="right-section2">
           <LeagueofEuropeanNations data1={LeagueAzadegan}  data2={LeagueBartar}/>
 
+               
             
+
+            <Leagues/>
           </section>
 
         </div>
