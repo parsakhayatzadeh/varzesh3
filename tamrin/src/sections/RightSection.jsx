@@ -9,6 +9,8 @@ import HeadSlider from '../component/HeadSlider';
 import Slider3 from '../datas/Slider3';
 import Slider from '../component/Slider';
 import Leagues from '../component/Leagues';
+import League from '../datas/League';
+import PersionLeagues from '../datas/PersionLeagues';
 
 const RightSection = () => {
   const [bigSliderData, setBigSliderData] = useState(BigSliderData)
@@ -25,9 +27,7 @@ const RightSection = () => {
 
         <div className='right-section-box'>
 
-          <section className='right-section1'>
-            <img src="../../public/25.gif" alt="" className='item-radius' />
-          </section>
+
 
           <section className="right-section2">
             <LeagueofEuropeanNations data1={LeagueAzadegan} data2={LeagueBartar} />
@@ -45,7 +45,19 @@ const RightSection = () => {
               })}
             </div>
 
-            <Leagues/>
+
+
+
+          </section>
+
+
+
+          <section className='right-section1'>
+            <img src="../../public/25.gif" alt="" className='item-radius' />
+
+            <Leagues data={PersionLeagues} name="جدول لیگ های ایران" />
+            <img src={"../../public/31.gif"} alt=""  className='item-radius'/>
+
           </section>
 
         </div>

@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Leagues = ({ data , name }) => {
     const [team, setTeam] = useState(data);
-    const [showList, setShowList] = useState(team.filter((e) => e.league == "لیگ برتر اینگلیس"));
     const leagues = [... new Set(team.map((item) => item.league))]; 
+    const [showList, setShowList] = useState(team.filter((e) => e.league == leagues[0]));
     const [title , setTitle] = useState("لیگ برتر اینگلیس")
     
 
     const changeLeague = (item) => {
-        const newVal = item.target.value;
-        setShowList(team.filter((e) => e.league == newVal))
+        const newVal = item.target.value;        
+        setShowList(data.filter((e) =>e.league == newVal))
         setTitle(newVal)
     }
     return (
