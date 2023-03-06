@@ -286,6 +286,7 @@ body {
 }
 
 .p {}
+
 .show-list-box {
   display: flex;
   flex-direction: column;
@@ -329,6 +330,7 @@ body {
   visibility: visible;
   top: 23px;
 }
+
 .show-list {
   display: flex;
   flex-direction: row;
@@ -395,7 +397,7 @@ body {
 }
 
 .nextSlide {
- opacity: 0;
+  opacity: 0;
   transform: translateX(100%);
 }
 
@@ -438,7 +440,7 @@ body {
 }
 
 .league-section {
-  background-color: #fff;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
 
@@ -454,6 +456,7 @@ body {
 .item-league {
   display: flex;
   flex-direction: row;
+  height: 27px;
   gap: 30px;
 
 
@@ -504,7 +507,7 @@ body {
 }
 
 .gray {
-  background-color: #d9d9d9;
+  background-color: #f2f2f2;
 }
 
 .show-list-head p {
@@ -515,11 +518,32 @@ body {
 
 .right-section {
   width: 53%;
+  display: flex;
+  flex-direction: column;
+  
+
+
+}
+.right-section1{ 
+  width: 45%;
+}
+.right-section2{
+  width:45%;
+}
+
+.right-section-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  
 }
 
 .big-slider {
-  width: 700px;
+  max-width: 600px;
+  min-width: 600px;
   background-color: #fff;
+  height: 199px;
   display: flex;
   flex-direction: row;
   direction: rtl;
@@ -527,27 +551,35 @@ body {
 
 
 }
+.section1-bigslider img{ 
+  width: 300px;
+}
 
-.big-slider div{
+.big-slider div {
   display: flex;
   flex-direction: row;
 
 }
 
 .section2-bigslider {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   padding: 10px;
 }
-.index-btn{ 
-  display: flex; 
+
+.index-btn {
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 5px;
 }
-.index-btn button{ 
-  border: transparent;
-   width: 20px;
 
+.index-btn button {
+  border: transparent;
+  width: 20px;
+
+}
+.item-next2{ 
+  margin-top: 220px;
 }

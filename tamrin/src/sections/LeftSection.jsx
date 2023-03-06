@@ -8,6 +8,9 @@ import Slider from '../component/Slider'
 import Slider1 from '../datas/Slider1';
 import Slider2 from '../datas/SLider2'
 import League from '../datas/League'
+import EuropeanNationsAgruop from '../datas/EuropeanNationsAgruop ';
+import EuropeanNationsBgruop from '../datas/EuropeanNationsBgruop'
+
 
 
 const LeftSection = () => {
@@ -41,7 +44,7 @@ const LeftSection = () => {
                 </div>
 
                 <div className='item-next'>
-                    <LeagueofEuropeanNations />
+                    <LeagueofEuropeanNations data1={EuropeanNationsAgruop}  data2={EuropeanNationsBgruop}/>
 
                 </div>
                 <div>

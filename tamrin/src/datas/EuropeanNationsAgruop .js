@@ -337,7 +337,8 @@ const EuropeanNationsAgruop = [
         week: 5,
         league: "A"
         
-    }
+    },
+    
 ]
 
 export default EuropeanNationsAgruop 
